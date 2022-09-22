@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+header {
+    font-family: ubuntu;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+body {
+	line-height: 1;
+    background: linear-gradient(180deg, rgb(219, 125, 219), rgb(79, 187, 79));
+    font-family: ubuntu;
+}
+
+ul {
+	list-style-type: circle;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.124);
+
+}
+ol {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.124);
+
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.passions {
+    font-family: ubuntu;
+    border: 1in;
+    align-items: center;
+    align-content: center;
+}
+
+article {
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+h2 {
+    font-size: 20px;
+}
+.lists {
+    font-family: ubuntu;
+    text-align: center;
+}
+.designs {
+font-family: ubuntu;
+font-size: 20px;
+padding: 5px;
+text-align: center;
+color: white;
+}
+#site-link {
+    font-size: 15px;
+    color: greenyellow;
+}
+
+#step-2 {
+font-size: 15px;
+color: rgb(219, 125, 219);
+}
+footer p {
+    column-count: 2;
+    column-rule-width: 50px;
+    column-gap: 10px;
+    font-family: ubuntu;
+    color: white;
+}
+  
+footer h3 {
+    font-family: ubuntu;
+    color: white;
+    column-span: all;
+    font-size: 30px;
+    font-family: garamond;
+    text-align: center;
+    align-content: center;
+}
+footer {
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+#list-heading {
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+}
+#my-designs {
+    padding: 10px;
+}
